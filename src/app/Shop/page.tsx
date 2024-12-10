@@ -161,7 +161,7 @@ export default function Shop() {
 
      
       <div className="w-full h-[40px] sm:h-[60px] bg-cover bg-center" style={{ backgroundImage: "url('/shop-upper.jpg')" }}></div>
-      <div className="cardsContainer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4 sm:p-6 my-4" style={{rowGap:'40px'}}>
+      <div className="Container items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4 sm:p-6 my-4" style={{rowGap:'40px'}}>
         {data.map((card, index) => (
           <div
             className="card border shadow-lg rounded-lg overflow-hidden"
