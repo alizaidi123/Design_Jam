@@ -75,7 +75,7 @@ export default function Products() {
           Our Product
         </h2>
       </div>
-      <div className="cardsContainer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-4" style={{rowGap:"35px"}}>
+      <div className="Container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-4" style={{rowGap:"35px"}}>
         {data.map((card, index) => (
           <div
             className="card border shadow-lg rounded-lg overflow-hidden"
