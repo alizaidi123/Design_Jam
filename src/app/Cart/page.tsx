@@ -78,10 +78,9 @@ export default function Cart() {
         </div>
       </div>
 
-      <div
-        className="w-full h-[200px] bg-cover bg-center mt-14 mb-2"
-        style={{ backgroundImage: "url('/offerings.jpg')" }}
-      ></div>
+        <div className="mb-2">
+        <FeaturesSection/>
+      </div>
     </>
   );
 }
