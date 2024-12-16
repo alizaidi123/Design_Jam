@@ -161,6 +161,22 @@ export default function Blog() {
         </div>
       </div>
 
+      <div className="flex items-center flex-row justify-center mt-8 mb-12 space-x-4 sm:space-x-8">
+        <button className="productBtn font-poppins text-lg text-white bg-[#B88E2F] border-2 border-[#B88E2F] rounded-xl w-[60px] h-[60px] sm:w-16 sm:h-16">
+          1
+        </button>
+        <button className="productBtn font-poppins text-lg text-[#000000] bg-[#F9F1E7] border-2 border-[#B88E2F] rounded-xl w-[60px] h-[60px] sm:h-16">
+          2
+        </button>
+        <button className="productBtn font-poppins text-lg text-[#000000] bg-[#F9F1E7] border-2 border-[#B88E2F] rounded-xl w-[60px] h-[60px] sm:h-16">
+          3
+        </button>
+        <button className="productBtn font-poppins text-lg text-[#000000] bg-[#F9F1E7] border-2 border-[#B88E2F] rounded-xl w-[98px] h-[60px] px-4 py-2 sm:px-6 sm:py-3">
+          Next
+        </button>
+      </div>
+
+
       <div
         className="mt-10 mb-2"
       >
