@@ -141,9 +141,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className="mt-10 mb-2">
-        <FeaturesSection />
-      </div>
+   
     </>
   );
 }
