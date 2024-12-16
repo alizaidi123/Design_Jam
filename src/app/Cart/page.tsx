@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { RiDeleteBin7Line } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
+import FeaturesSection from "../Components/FeatureSec";
 
 export default function Cart() {
   return (
@@ -78,7 +79,9 @@ export default function Cart() {
         </div>
       </div>
 
-        <div className="mb-2">
+<div
+        className=" mb-2"
+      >
         <FeaturesSection/>
       </div>
     </>
