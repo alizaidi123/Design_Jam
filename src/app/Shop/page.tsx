@@ -200,10 +200,9 @@ export default function Shop() {
       </div>
 
       
-      <div
-  className="w-full h-[150px] sm:h-[180px] md:h-[200px] bg-cover bg-center my-8 md:my-14"
-  style={{ backgroundImage: "url('/offerings.jpg')" }}
-></div>
+       <div className="mb-2">
+        <FeaturesSection/>
+      </div>
 
     </>
   );
