@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
+import FeaturesSection from "../Components/FeatureSec";
 
 export default function Shop() {
   interface Card {
@@ -198,11 +199,12 @@ export default function Shop() {
           Next
         </button>
       </div>
-
-      
-       <div className="mb-2">
+      <div className="mb-2">
         <FeaturesSection/>
       </div>
+
+      
+
 
     </>
   );
