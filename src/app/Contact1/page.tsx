@@ -3,6 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
+import FeaturesSection from "../Components/FeatureSec";
 
 export default function () {
   return (
@@ -150,7 +151,9 @@ export default function () {
         </form>
       </div>
 
-         <div className="mb-2">
+      <div
+        className="mt-14 mb-2"
+      >
         <FeaturesSection/>
       </div>
 
